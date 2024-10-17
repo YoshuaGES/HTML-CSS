@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "poppins";
+  margin-inline: 200px;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%;
+  border: 1px solid black;
+}
+
+.wrapDesc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end; 
+  gap: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+.btn-1 {
+  padding-inline: 15px;
+  border-radius: 5px;
+  padding-block: 8px;
+  border-color: blue;
+  background-color: transparent;
+  color: blue;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.btn-2 {
+  padding-inline: 15px;
+  border-radius: 5px;
+  padding-block: 8px;
+  border-color: none;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}

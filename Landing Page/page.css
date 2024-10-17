@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  height: 100vh;
+}
+
+.card1 {
+  background-color: rgba(189, 119, 255, 0.473);
+  width: 50%;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #888888;
+  font-size: 12px;
+}
+
+.h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.desk {
+  padding: 5px;
+  color: #3f3f3f;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+
+.btn1 {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  cursor: pointer;
+  border: rgb(0, 119, 255);
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.btn2 {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.card2 {
+  background-color: rgba(189, 119, 255, 0.473);
+  width: 50%;
+  padding: 20px;
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 50px;
+}
+
+.card1 {
+  width: 50%;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.card1 h1 {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.card2 {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  margin-right: 50px;
+}
+
+.title {
+  color: green;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}

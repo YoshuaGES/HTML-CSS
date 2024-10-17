@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+.card1,
+.card2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+    padding: 20px;
+    margin: 50px;
+    gap: 50px;
+    border-radius: 10px;
+}
+    
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2px;
+    
+}
+
+.tombol1 {
+    background-color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    border-color: rgb(134, 134, 134);
+    color: rgb(0, 66, 165);
+}
+
+.tombol2 {
+    background-color: darkblue;
+    border-radius: 5px;
+    height: 30px;
+    width: 85px;
+    color: white;
+    box-shadow: 5px 3px 10px #636262;;
+}

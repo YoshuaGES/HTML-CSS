@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 30%;
+}
+
+.logo {
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+
+.but {
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.but:hover {
+  background-color: rgb(255, 238, 0);
+}
+
+h1 {
+  color: white;
+  font-family: monospace;
+  padding: 40px;
+  font-size: 90px;
+}
+
+.content {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+#animation {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  animation: move 10s linear infinite;
+}
+
+/* Media Query untuk Mobile Devices */
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .logo img {
+    width: 70%; /* Atur ulang ukuran logo */
+  }
+
+  .button {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .but {
+    padding: 15px 10px;
+    font-size: 18px; /* Ukuran font lebih kecil */
+  }
+
+  h1 {
+    font-size: 60px; /* Ukuran teks lebih kecil untuk mobile */
+    padding: 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content img {
+    width: 80%; /* Atur ulang ukuran gambar konten */
+  }
+}

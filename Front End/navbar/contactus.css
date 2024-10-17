@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Menambahkan font default untuk teks */
+}
+
+.container {
+  padding: 10px;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 10px;
+  width: 40%;
+  background-color: white;
+  box-shadow: 4px 4px 8px 4px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.image img {
+  width: 20%;
+}
